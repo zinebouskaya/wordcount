@@ -1,0 +1,11 @@
+<h1>this is html </h1>
+<a href="{% url 'about' %}">About</a>
+<br/>
+{{hithere}}
+<form action="{% url 'count' %}">
+
+  <textarea name="fulltext" id="" cols="40" rows="10"></textarea>
+  <br/>
+  <input type="submit" value="Count!"/>
+
+</form>

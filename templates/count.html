@@ -1,0 +1,15 @@
+<h1>there are {{count}} words in your text</h1>
+<a href="http://127.0.0.1:8000/">New Count :</a>  
+
+<h1>Your words</h1>
+{{ fulltext }}
+
+<h1>word count</h1>
+{% for word, counttotal in sortedwords %}
+
+{{word}}
+<br/>
+{{counttotal}}
+<br/>
+
+{% endfor %}
